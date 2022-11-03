@@ -56,9 +56,18 @@ ul {
   letter-spacing: 1.5px;
   text-align: center;
 }
-.site-header-btn{
-  padding: 12.5px 28.5px;
-    background-color: #ffffff;
-    border: 1.5px solid #2c2830;
 
+.site-nav-link:active {
+  color: #2c2830;
+}
+.site-header-btn {
+  padding: 12.5px 28.5px;
+  background-color: #ffffff;
+  color: #2c2830;
+  border: 1.5px solid #2c2830;
+  font-weight: 700;
+}
+.site-header-btn:active{
+    background-color: #2c2830;
+    color: #ffffff;
 }
